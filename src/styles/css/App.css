@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+#github, #linkedin, #facebook, #hobbyBtn, #projectsBtn, #skillsBtn, #educationBtn, #workBtn, #aboutBtn {
+  position: absolute;
+  border: none;
+  color: #dbd7d2;
+  font-weight: bolder;
+}
+
+.itTalents:first-child, .two:first-child, .one:first-child {
+  border-right: 3px dashed #bd563f;
+  text-align: center;
+}
+
+#now, #thirdEndTime, #thirdBegTime, #secondEndTime, #secondBegTime, #firstEndTime, #firstBegTime {
+  float: right;
+  font-weight: bold;
+}
+
+#thirdEndTime, #secondEndTime, #firstEndTime {
+  margin-bottom: 32%;
+}
+
+#aboutBtn {
+  top: 2%;
+  left: 71%;
+  padding: 2%;
+  background-color: #c98459;
+}
+
+#workBtn {
+  left: 81%;
+  top: 6%;
+  padding: 1%;
+  background-color: #8a3135;
+}
+
+#educationBtn {
+  left: 88%;
+  top: 0%;
+  margin: 1%;
+  padding: 3% 2%;
+  background-color: #bd563f;
+}
+
+#skillsBtn {
+  left: 86%;
+  top: 21%;
+  padding: 2%;
+  background-color: #c98459;
+}
+
+#projectsBtn {
+  left: 93%;
+  top: 35%;
+  padding: 2% 1%;
+  background-color: #8a3135;
+}
+
+#hobbyBtn {
+  top: 20%;
+  left: 78%;
+  padding: 1%;
+  background-color: #bd563f;
+}
+
+#facebook {
+  width: 2%;
+  top: 23%;
+  left: 95%;
+  background-color: #ceb07a;
+  border: 2px solid #ceb07a;
+}
+
+#linkedin {
+  width: 2%;
+  left: 74%;
+  top: 18%;
+  background-color: #8a3135;
+  border: 2px solid #8a3135;
+}
+
+#github {
+  width: 2%;
+  top: 35%;
+  left: 88%;
+  background-color: #bd563f;
+  border: 2px solid #bd563f;
+}
+
+#wrapper {
+  width: 40%;
+  height: 85vh;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 30%;
+}
+
+#profilImg {
+  width: 27%;
+  float: right;
+}
+
+#wrapper > h1 {
+  color: #dbd7d2;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+#wrapper > h2 {
+  color: #dbd7d2;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: 10%;
+}
+
+#contacts {
+  width: 100%;
+  height: 15vh;
+  margin-left: 5%;
+}
+
+#contacts > ul {
+  color: #dbd7d2;
+  margin-top: 10%;
+  font-size: 0.7em;
+}
+
+#textAbout {
+  color: #dbd7d2;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+#textAbout > p {
+  padding-bottom: 3%;
+}
+
+.one {
+  box-sizing: border-box;
+  color: #dbd7d2;
+  box-sizing: border-box;
+  padding: 0% 2%;
+  width: 33%;
+  height: 17vh;
+}
+
+.one:first-child {
+  width: 28%;
+}
+
+.one > img {
+  width: 60%;
+  float: right;
+}
+
+#firstBegTime {
+  font-size: 0.9em;
+}
+
+#firstEndTime {
+  font-size: 1em;
+}
+
+#secondBegTime {
+  font-size: 1em;
+}
+
+#secondEndTime {
+  font-size: 1.1em;
+}
+
+#thirdBegTime {
+  font-size: 1.1em;
+}
+
+#thirdEndTime {
+  font-size: 1.2em;
+}
+
+#now {
+  font-size: 1.2em;
+}
+
+.jobTitle {
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-left: 2%;
+}
+
+.description {
+  font-size: 0.7em;
+  padding-left: 2%;
+}
+
+.company {
+  font-size: 1em;
+  float: right;
+  font-weight: bold;
+}
+
+.two {
+  color: #dbd7d2;
+  padding: 0% 1%;
+  width: 28%;
+  height: 5vh;
+}
+
+.two:last-child {
+  width: 65%;
+}
+
+.arrow-up {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 9px solid #bd563f;
+  float: right;
+  margin-right: 2px;
+}
+
+.arrow {
+  width: 30%;
+  margin-top: 5%;
+}
+
+.itTalents {
+  color: #dbd7d2;
+  box-sizing: border-box;
+  padding: 0% 1%;
+  width: 33%;
+  height: 21vh;
+}
+
+.itTalents:first-child {
+  width: 28%;
+}
+
+.itTalents:last-child {
+  width: 25%;
+}
+
+.descEd {
+  width: 43%;
+  font-size: 1.1em;
+}
+
+.skills {
+  width: 100%;
+  margin: 0% 2%;
+  color: #dbd7d2;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+div.progress-bar {
+  background-color: #74644d;
+  text-align: right;
+}
+
+.progressBar.progress {
+  background-color: #ceb07a;
+  border-radius: 0;
+}
+
+.progress_number {
+  color: #dbd7d2;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+  float: right;
+  margin-left: 3%;
+}
+
+.hobby > span {
+  color: #dbd7d2;
+}
+
+.hobby > img {
+  width: 20%;
+  margin: 0 1%;
+}
+
+.hobby > p {
+  color: #dbd7d2;
+  margin-left: 80%;
+}
+
+.hobby:last-child img {
+  margin-left: 7%;
+}
+
+#relax {
+  width: 13%;
+}
+
+/*# sourceMappingURL=App.css.map */
