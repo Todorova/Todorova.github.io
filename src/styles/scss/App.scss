@@ -19,11 +19,6 @@ $textColor: rgb(219, 215, 210);
     margin-left: 5%;
     padding-left: 3%;
 }
-// body{
-//     width: 100%;
-//     display: inline-block;
-//     box-sizing: border-box;
-// }
 
 #aboutBtn{
     @extend %font-familyBtn;
@@ -283,6 +278,7 @@ div.progress-bar {
     #aboutBtn{
         padding: 1%;
         font-size: 0.7em;
+        left: 69%;
     } 
     #workBtn{
         font-size: 0.7em;
@@ -292,7 +288,7 @@ div.progress-bar {
     
     #educationBtn{
         font-size: 0.7em;
-        left: 82%;
+        left: 81%;
     } 
     
     #skillsBtn{
@@ -315,7 +311,8 @@ div.progress-bar {
     }
     #facebook {
         width: 3%;
-        top: 10%;
+        top: 11%;
+        left: 95%;
     }
     #linkedin{
         width: 4%;
