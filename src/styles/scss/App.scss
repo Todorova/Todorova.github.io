@@ -278,7 +278,7 @@ div.progress-bar {
     #aboutBtn{
         padding: 1%;
         font-size: 0.7em;
-        left: 69%;
+        left: 68%;
     } 
     #workBtn{
         font-size: 0.7em;
@@ -312,7 +312,7 @@ div.progress-bar {
     #facebook {
         width: 3%;
         top: 11%;
-        left: 95%;
+        left: 96%;
     }
     #linkedin{
         width: 4%;
@@ -324,4 +324,28 @@ div.progress-bar {
         top: 21%;
         left: 81%;
     }
+}
+
+@media all and (max-width: 700px) {
+    #aboutBtn{
+        font-size: 0.6em;
+    } 
+    #workBtn{
+        font-size: 0.6em;
+    } 
+    
+    #educationBtn{
+        font-size: 0.6em;
+    } 
+    
+    #skillsBtn{
+        font-size: 0.6em;
+    }
+    #projectsBtn{
+        font-size: 0.6em;
+    }
+    #hobbyBtn{
+        font-size: 0.6em;
+    }
+
 }
