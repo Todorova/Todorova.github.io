@@ -20,10 +20,6 @@ class App extends Component {
     return (
       <div className="App">
         <Menu />
-        <Linked />
-        <Github />
-        <Facebook />
-
         <Switch>
           <Route exact path="/" component={About} />
           <Route path="/about" component={About} />
@@ -33,7 +29,6 @@ class App extends Component {
           <Route path="/projects" component={Projects} />
           <Route path="/hobby" component={Hobby} />
         </Switch>
-
       </div>
     );
   }

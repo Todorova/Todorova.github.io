@@ -12,23 +12,18 @@ $textColor: rgb(219, 215, 210);
     color: $textColor;
     font-weight: bolder;
 }
-%first-child-workpage{
-    border-right: 3px dashed $peach;
-    text-align: center
-}
-%firstTime-workpage{
-    float: right;
-    font-weight: bold;
-}
-%secondTime-workpage{
-    margin-bottom: 32%;
-}
+
 %textSkills{
     color: $textColor;
     width: 30%;
     margin-left: 5%;
     padding-left: 3%;
 }
+// body{
+//     width: 100%;
+//     display: inline-block;
+//     box-sizing: border-box;
+// }
 
 #aboutBtn{
     @extend %font-familyBtn;
@@ -115,7 +110,7 @@ $textColor: rgb(219, 215, 210);
 }
 
 
-// Whole about home page
+// ABOUT PAGE
 #profilImg{
     width: 27%;
     float: right;
@@ -125,7 +120,7 @@ $textColor: rgb(219, 215, 210);
     font-size: 1.5em;
     font-weight: bold;
     margin-left: 10%;
-    margin-top: 5%
+    margin-top: 5%;
 }
 #wrapper > h2{
     color: $textColor;
@@ -155,115 +150,69 @@ $textColor: rgb(219, 215, 210);
 }
 
 
-// WHOLE PAGE WORK
+// WORK PAGE 
 .one{
-    box-sizing: border-box;
-    color: $textColor;
-    box-sizing: border-box;
-    padding: 0% 2%;
-    width: 33%;
-    height: 17vh;  
-
-}
-.one:first-child{
-   @extend %first-child-workpage;
-   width: 28%;
-}
-.one > img{
-    width: 60%;
-    float: right;
-}
-#firstBegTime{
-    font-size: 0.9em;
-    @extend %firstTime-workpage;
-}
-#firstEndTime{
-    font-size: 1em;
-    @extend %firstTime-workpage;
-    @extend %secondTime-workpage;
-}
-#secondBegTime{
-    font-size: 1em;
-    @extend %firstTime-workpage;
-}
-#secondEndTime{
-    font-size: 1.1em;
-    @extend %firstTime-workpage;
-    @extend %secondTime-workpage;
-}
-#thirdBegTime{
-    font-size: 1.1em;
-    @extend %firstTime-workpage
-}
-#thirdEndTime{
-    font-size: 1.2em;
-    @extend %firstTime-workpage;
-    @extend %secondTime-workpage;
-}
-#now{
-    font-size: 1.2em;
-    @extend %firstTime-workpage
-}
-.jobTitle{
-    font-size: 1.1em;
-    font-weight: bold;
-    padding-left: 2%;
-}
-.description{
-    font-size: 0.7em;
-    padding-left: 2%;
-}
-.company{
-    font-size: 1em;
-    float: right;
-    font-weight: bold;
-}
-.two{
     // border: 1px solid white;
     color: $textColor;
-    padding: 0% 1%;
-    width: 28%;
-    height: 5vh;
-}
-.two:first-child{
-    @extend %first-child-workpage;
-}
-.two:last-child{
-    width: 65%;
-}
-.arrow-up {
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 9px solid $peach;
-    float: right;
-    margin-right: 2px;
-}
-.arrow{
-    width: 30%;
+    padding: 0% 2%;
+    box-sizing: content-box;
     margin-top: 5%;
 }
 
-//education page
+.one > img{
+    width: 50%;
+    float: left;
+}
+.begTime{
+    font-size: 0.9em;
+}
+.endTime{
+    font-size: 1em;
+    font-weight: bold
+}
+
+#now{
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+.jobTitle{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.description{
+    font-size: 0.8em;
+}
+.company{
+    font-size: 1em;
+    float: left;
+    font-weight: bold;
+    margin-right: 5%;
+}
+.arrow-up {
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #bd563f;
+    float: left;
+    margin-top: 2%;
+  }
+
+//EDUCATION PAGE
 .itTalents{
     color: $textColor;
-    box-sizing: border-box;
-    padding: 0% 1%;
-    width: 33%;
-    height: 21vh;   
+    margin-top: 7%;
 }
-.itTalents:first-child{
-    @extend %first-child-workpage;
-    width: 28%;
- }
- .itTalents:last-child{
-    width: 25%;
- }
+.itTalents p{
+    float: right;
+    margin: 1%;
+    font-size: 0.9em;
+}
  .descEd{
-     width: 43%;
-     font-size: 1.1em;
+     font-size: 1em;
  }
 
-// //WHOLE SKILLS PAGE
+
+// SKILLS PAGE
 .skills{
  width: 100%;
  margin: 0% 2%;
@@ -308,4 +257,74 @@ margin-left: 7%;
 }
 #relax{
     width: 13%;
+}
+
+
+@media all and (max-width: 1200px) {
+    #wrapper{
+        width: 65%;
+        height: 65vh;
+        margin-top: 2%;
+        margin-left: 7%;
+    }
+    body{
+        height: 100vh;
+    }
+     .one > img{
+        width: 20%;
+    }
+    .one{
+        box-sizing: border-box;
+        margin-top: 0%;
+    }
+    .itTalents p{
+        font-size: 0.8em;
+    }
+    #aboutBtn{
+        padding: 1%;
+        font-size: 0.7em;
+    } 
+    #workBtn{
+        font-size: 0.7em;
+        top: 11%;
+        left: 85%;;
+    } 
+    
+    #educationBtn{
+        font-size: 0.7em;
+        left: 82%;
+    } 
+    
+    #skillsBtn{
+        padding: 1%;
+        font-size: 0.7em;
+        top: 17%;
+        left: 89%;
+    }
+    #projectsBtn{
+        padding: 1%;
+        font-size: 0.7em;
+        top: 24%;
+        left: 88%;
+    }
+    #hobbyBtn{
+        padding: 1%;
+        font-size: 0.7em;
+         top: 10%;
+         left: 73%;
+    }
+    #facebook {
+        width: 3%;
+        top: 10%;
+    }
+    #linkedin{
+        width: 4%;
+        top: 16%;
+        left: 79%;
+    }
+    #github{
+        width: 4%;
+        top: 21%;
+        left: 82%;
+    }
 }
