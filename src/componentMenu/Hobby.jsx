@@ -17,38 +17,33 @@ class Hobby extends Component {
 
   render () {
     return (
-
-      (
-        <div id="wrapper">
-          <div className="hobby">
-            <span>to be active...</span>
-            <img src={Run} alt="run" />
-            <img src={MoreRun} alt="run" />   
-             <span>..not at all</span>   
-            <img id = 'relax' src={Relax} alt="relax" />
-           
-          </div>
-
-          <div className="hobby">
-            <span>to make something delicious...</span>
-            <img src={Cake} alt="cake" />
-            <img src={Pancakes} alt="pancakes" />  <br/>
-            <span>..and to eat</span> 
-            <img src={Eat} alt="eat" />
-          </div>
-
-          <div className="hobby">
-            <span>to make something creative...</span>
-            <img src={Creative} alt="creative" />
-            <img src={Slippers} alt="slippers" />
-          </div>
-
-          <div className='hobby'>
-              <img src={DuckFace} /> <span>how to describe that..  </span>
-            
-          </div>
+      <div id="wrapper">
+        <div className="hobby">
+          <span>to be active...</span>
+          <img src={Run} alt="run" />
+          <img src={MoreRun} alt="run" />
+          <span>..not at all</span>
+          <img id="relax" src={Relax} alt="relax" />
         </div>
-      )
+
+        <div className="hobby">
+          <span>to make something delicious...</span>
+          <img src={Cake} alt="cake" />
+          <img src={Pancakes} alt="pancakes" />  <br />
+          <span>..and to eat</span>
+          <img src={Eat} alt="eat" />
+        </div>
+
+        <div className="hobby">
+          <span>to make something creative...</span>
+          <img src={Creative} alt="creative" />
+          <img src={Slippers} alt="slippers" />
+        </div>
+
+        <div className="hobby">
+          <img src={DuckFace} /> <span>how to describe that.. </span>
+        </div>
+      </div>
     );
   }
 }
